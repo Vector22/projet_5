@@ -1,7 +1,7 @@
 # projet_5
 First release of the Open Food Facts (project_5)
 
-#obtention des fichiers du programme git clone https://github.com/Vector22/projet_4_test
+#obtention des fichiers du programme git clone https://github.com/Vector22/projet_5
 
 #installation Placez vous dans votre environement virtuel et installez les paquets requis
 
