@@ -329,7 +329,6 @@ def showFavoritesFoods(engine, detailled=False):
 
 def run():
     MAX_FOODS = maxFoods()
-    print("\n\nAliments total : {}\n\n".format(MAX_FOODS))
     mainLoop = True
     while(mainLoop):
         subLoop = True

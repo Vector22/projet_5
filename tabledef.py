@@ -10,7 +10,7 @@ DB_URI = 'mysql' + cfg['MYSQL_PYTHON_DRIVER'] + '://' +\
     cfg['MYSQL_USER'] + ':' + cfg['MYSQL_PWD'] + '@' +\
     cfg['MYSQL_HOST'] + ':' + str(cfg['MYSQL_PORT']) + '/' +\
     cfg['MYSQL_DB'] + '?' + 'charset=utf8'
-engine = create_engine(DB_URI, encoding='utf-8', echo=True)
+engine = create_engine(DB_URI, encoding='utf-8', echo=False)
 Base = declarative_base()
 
 ###############################################################
